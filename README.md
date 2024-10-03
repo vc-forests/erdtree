@@ -16,3 +16,4 @@ Reference:
 ### SSH login
 Reference:
 - https://techdocs.akamai.com/cloud-computing/docs/set-up-and-secure-a-compute-instance#harden-ssh-access
+- https://www.linode.com/docs/guides/use-public-key-authentication-with-ssh/?tabs=ed25519-recommended%2Cssh-add%2Cusing-ssh-copy-id-recommended
