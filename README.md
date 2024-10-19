@@ -14,6 +14,10 @@ As a good practice, we have disabled root account (password login). We can't log
 Reference:
 - https://www.hostinger.com/tutorials/how-to-see-system-users-in-ubuntu-linux-vps/
 ### SSH login
+How do I name ssh key (not default)? Use `/home/your_username/.ssh/your_key_name` \
+How do I copy customed name ssh key to remote host? Use -i option: `ssh-copy-id -i ~/.ssh/your_key.pub user@host` \
+I have two machines. Can I access to a remote host from both machines? Yes and No. The `.ssh/authorized_keys` files will be overwrited by second key.
+
 Reference:
 - https://techdocs.akamai.com/cloud-computing/docs/set-up-and-secure-a-compute-instance#harden-ssh-access
 - https://www.linode.com/docs/guides/use-public-key-authentication-with-ssh/?tabs=ed25519-recommended%2Cssh-add%2Cusing-ssh-copy-id-recommended
